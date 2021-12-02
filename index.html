@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SocialBook</title>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="kwitter.js"></script>
+</head>
+<body background="linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);">
+
+<center>
+	<h1 class="header">	
+		SocialBook	<sup>
+	<img src="m2.png">
+	</sup>
+</h1>
+
+	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+
+		<br>
+		<h3 >Human being is a product of society.</h3>
+		<h4 >Join SocialBook today</h4>
+		
+		<div class="form-group">
+		  <label >Email id</label>
+		 <input type="text" id="email_id" class="form-control" placeholder="Email id">
+		</div>
+
+		<div class="form-group">
+			<label >Password</label>
+		   <input type="text" id="password" class="form-control" placeholder="Password">
+		  </div>
+
+	    <div class="form-group">
+			<label >User Name</label>
+		   <input type="text" id="user_name" class="form-control" placeholder="UserName">
+		  </div>
+
+		<button id="login_button" class="btn btn-primary" onclick="addUser()">Log in</button>
+		<br><br>
+	</div>
+</center>
+
+</body>
+</html>
